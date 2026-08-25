@@ -10,6 +10,25 @@ Codex DeepSeek Shim explored a provider-compatibility and routing layer for Code
 - Keeps provider adaptation separate from project orchestration.
 - Supports experimentation without making provider mechanics the user workflow.
 
+## Conceptual architecture
+
+```mermaid
+flowchart LR
+    C[Codex native workflow] --> B[Provider compatibility boundary]
+    B --> P[Capable physical providers]
+    P --> B
+    B --> R[Native Responses-compatible result]
+    R --> C
+```
+
+## Benchmark methodology
+
+Benchmarking freezes task packets and repository state, uses identical tools, permissions, and acceptance gates across routes, and records functional acceptance, defects, retries, human intervention, latency, tokens/cost, cache behavior, and failures. Runs are repeated, results are labeled Observed/Derived/Proposed/Unknown, and results are published only when reproducible.
+
+## Research and demos
+
+Public notes and demos will focus on provider compatibility, native-workflow preservation, provider/task fit, cost/performance evidence, and failure recovery. Actual measured results are pending validated evidence and must not be invented.
+
 These experimental integrations modified Codex workflow behavior. In practice, defects in Agent System and Shim introduced unacceptable instability. The current Codex app integration surface also limited the stability guarantees the implementation needed to provide.
 
 **The implementation is no longer publicly available due to stability issues.**
