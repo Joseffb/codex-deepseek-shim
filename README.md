@@ -16,6 +16,10 @@ These experimental integrations modified Codex workflow behavior. In practice, d
 
 A new public version will be added when the required stability has been achieved.
 
+## Future public release
+
+A future stable public version may include architecture diagrams at an appropriate abstraction level, measured outcomes, research notes, demos, benchmark methodology and results, and selected interfaces/contracts. Implementation internals and private operating material remain private.
+
 The implementation is unsupported. Users should discontinue use and remove deployed copies.
 
 [OpenCodex](https://github.com/lidge-jun/opencodex) is a related public alternative for provider-flexible Codex workflows. It is a separate project—not the same implementation, an official successor, partner, dependency, or drop-in replacement.
