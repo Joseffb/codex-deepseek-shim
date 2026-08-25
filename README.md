@@ -42,3 +42,7 @@ A future stable public version may include architecture diagrams at an appropria
 The implementation is unsupported. Users should discontinue use and remove deployed copies.
 
 [OpenCodex](https://github.com/lidge-jun/opencodex) is a related public alternative for provider-flexible Codex workflows. It is a separate project—not the same implementation, an official successor, partner, dependency, or drop-in replacement.
+
+## Learn more
+
+To ask about Codex DeepSeek Shim, its research, or a future stable release, contact Joseff Betancourt through [joseffb.com](https://joseffb.com).
